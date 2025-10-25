@@ -12,22 +12,22 @@ This backend project provides full CRUD functionality for managing employees. Us
 
 ## Authentication
 
-#### 1. User Registration (Sign Up)
+#### **1. User Registration (Sign Up)**
 
 1. Users can register by providing their **firstname, email, and password**.
 2. Passwords are securely hashed using bcrypt before storing in the database.
 
 
-#### 2. User Login (Sign In)
+#### **2. User Login (Sign In)**
 
 1. Registered users can log in with their email and password.
 2. The backend verifies credentials and can optionally provide a JWT token for session management.
 
-#### 3. Password Management
+#### **3. Password Management**
 
 **Forgot Password:** Users can request a password reset link via email.
 **Reset Password:** Users can set a new password securely using the reset token.
 
-#### 4. Secure Access
+#### **4. Secure Access**
 
 Only authenticated users can perform sensitive operations like **creating, updating, or deleting employee records**.
